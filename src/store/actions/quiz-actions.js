@@ -1,7 +1,7 @@
 import axios from "axios";
 import { setQuizData, setQuizType, setTypesOfQuiz } from "../slices/quiz-slice";
 
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL = "";
 
 export const searchQuizDataByTermAndTypeFromAPI = (term, type) => {
   return async (dispatch) => {
